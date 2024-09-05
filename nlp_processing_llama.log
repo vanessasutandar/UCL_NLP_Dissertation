@@ -1,0 +1,759 @@
+2024-07-24 20:29:07 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 20:29:07 - DEBUG - https://huggingface.co:443 "HEAD /facebook/llama/resolve/main/tokenizer_config.json HTTP/1.1" 401 0
+2024-07-24 20:29:33 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 20:29:33 - DEBUG - https://huggingface.co:443 "HEAD /facebook/llama/resolve/main/tokenizer_config.json HTTP/1.1" 401 0
+2024-07-24 20:29:45 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 20:29:46 - DEBUG - https://huggingface.co:443 "HEAD /facebook/llama/resolve/main/tokenizer_config.json HTTP/1.1" 401 0
+2024-07-24 21:02:17 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 21:02:17 - DEBUG - https://huggingface.co:443 "HEAD /facebook/llama/resolve/main/tokenizer_config.json HTTP/1.1" 401 0
+2024-07-24 21:23:10 - INFO - Created output directory: nlp_results/LLaMA
+2024-07-24 21:23:10 - DEBUG - Processing company folder: amzn
+2024-07-24 21:23:10 - INFO - Processing file: extracted_data/amzn/amzn_2024_fx_risk_text.txt
+2024-07-24 21:23:10 - INFO - Chunked text into 24 parts.
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error processing file extracted_data/amzn/amzn_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:10 - DEBUG - Processing company folder: aapl
+2024-07-24 21:23:10 - INFO - Processing file: extracted_data/aapl/aapl_2024_fx_risk_text.txt
+2024-07-24 21:23:10 - INFO - Chunked text into 8 parts.
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error processing file extracted_data/aapl/aapl_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:10 - DEBUG - Processing company folder: cmcsa
+2024-07-24 21:23:10 - INFO - Processing file: extracted_data/cmcsa/cmcsa_2024_fx_risk_text.txt
+2024-07-24 21:23:10 - INFO - Chunked text into 10 parts.
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:10 - ERROR - Error processing file extracted_data/cmcsa/cmcsa_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:10 - DEBUG - Processing company folder: pfe
+2024-07-24 21:23:10 - INFO - Processing file: extracted_data/pfe/pfe_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 27425 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/pfe/pfe_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: pep
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/pep/pep_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 28 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/pep/pep_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: goog
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/goog/goog_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 24 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/goog/goog_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: ms
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/ms/ms_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 320 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/ms/ms_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: wmt
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/wmt/wmt_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 18 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/wmt/wmt_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: cvx
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/cvx/cvx_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 37 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/cvx/cvx_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: intc
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/intc/intc_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 25 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/intc/intc_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: gs
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/gs/gs_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 933 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/gs/gs_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: hd
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/hd/hd_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 23 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/hd/hd_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: wfc
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/wfc/wfc_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 256 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/wfc/wfc_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: mrk
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/mrk/mrk_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 32 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/mrk/mrk_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: jnj
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/jnj/jnj_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 53 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/jnj/jnj_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: bac
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/bac/bac_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 254 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/bac/bac_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: tsla
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/tsla/tsla_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 20 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/tsla/tsla_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: crm
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/crm/crm_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 61 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/crm/crm_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: cost
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/cost/cost_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 9 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/cost/cost_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:12 - DEBUG - Processing company folder: msft
+2024-07-24 21:23:12 - INFO - Processing file: extracted_data/msft/10_2024_fx_risk_text.txt
+2024-07-24 21:23:12 - INFO - Chunked text into 58 parts.
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:12 - ERROR - Error processing file extracted_data/msft/10_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:54 - DEBUG - Processing company folder: amzn
+2024-07-24 21:23:54 - INFO - Processing file: extracted_data/amzn/amzn_2024_fx_risk_text.txt
+2024-07-24 21:23:54 - INFO - Chunked text into 24 parts.
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error processing file extracted_data/amzn/amzn_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:54 - DEBUG - Processing company folder: aapl
+2024-07-24 21:23:54 - INFO - Processing file: extracted_data/aapl/aapl_2024_fx_risk_text.txt
+2024-07-24 21:23:54 - INFO - Chunked text into 8 parts.
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error processing file extracted_data/aapl/aapl_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:54 - DEBUG - Processing company folder: cmcsa
+2024-07-24 21:23:54 - INFO - Processing file: extracted_data/cmcsa/cmcsa_2024_fx_risk_text.txt
+2024-07-24 21:23:54 - INFO - Chunked text into 10 parts.
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:54 - ERROR - Error processing file extracted_data/cmcsa/cmcsa_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:54 - DEBUG - Processing company folder: pfe
+2024-07-24 21:23:54 - INFO - Processing file: extracted_data/pfe/pfe_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 27425 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/pfe/pfe_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: pep
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/pep/pep_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 28 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/pep/pep_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: goog
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/goog/goog_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 24 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/goog/goog_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: ms
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/ms/ms_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 320 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/ms/ms_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: wmt
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/wmt/wmt_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 18 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/wmt/wmt_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: cvx
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/cvx/cvx_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 37 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/cvx/cvx_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: intc
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/intc/intc_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 25 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/intc/intc_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: gs
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/gs/gs_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 933 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/gs/gs_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: hd
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/hd/hd_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 23 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/hd/hd_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: wfc
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/wfc/wfc_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 256 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/wfc/wfc_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: mrk
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/mrk/mrk_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 32 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/mrk/mrk_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: jnj
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/jnj/jnj_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 53 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/jnj/jnj_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: bac
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/bac/bac_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 254 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/bac/bac_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: tsla
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/tsla/tsla_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 20 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/tsla/tsla_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: crm
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/crm/crm_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 61 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/crm/crm_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: cost
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/cost/cost_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 9 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/cost/cost_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:23:56 - DEBUG - Processing company folder: msft
+2024-07-24 21:23:56 - INFO - Processing file: extracted_data/msft/10_2024_fx_risk_text.txt
+2024-07-24 21:23:56 - INFO - Chunked text into 58 parts.
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error in analysis: 'InferenceClient' object has no attribute 'chat_completion'
+2024-07-24 21:23:56 - ERROR - Error processing file extracted_data/msft/10_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 21:27:53 - INFO - Starting LLaMA analysis script.
+2024-07-24 21:27:53 - INFO - Starting processing of text files.
+2024-07-24 21:27:53 - ERROR - HUGGINGFACE_TOKEN is not set. Please set it in your .env file.
+2024-07-24 21:27:53 - INFO - Completed processing of text files.
+2024-07-24 21:33:41 - INFO - Starting LLaMA analysis script.
+2024-07-24 21:33:41 - INFO - Starting processing of text files.
+2024-07-24 21:33:41 - ERROR - HUGGINGFACE_TOKEN is not set. Please set it in your .env file.
+2024-07-24 21:33:41 - INFO - Completed processing of text files.
+2024-07-24 21:34:20 - INFO - Starting LLaMA analysis script.
+2024-07-24 21:34:20 - INFO - Starting processing of text files.
+2024-07-24 21:34:20 - INFO - Loading tokenizer and model.
+2024-07-24 21:34:20 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 21:34:21 - DEBUG - https://huggingface.co:443 "HEAD /facebook/llama/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2024-07-24 21:34:21 - ERROR - Error loading model or tokenizer: facebook/llama is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2024-07-24 21:34:21 - INFO - Completed processing of text files.
+2024-07-24 21:47:07 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 21:47:07 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Meta-Llama-3.1-8B-Instruct/resolve/main/config.json HTTP/1.1" 401 0
+2024-07-24 21:52:18 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 21:52:18 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Meta-Llama-3.1-8B-Instruct/resolve/main/config.json HTTP/1.1" 401 0
+2024-07-26 19:25:39 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-26 19:25:39 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Meta-Llama-3.1-8B-Instruct/resolve/main/config.json HTTP/1.1" 401 0
+2024-07-26 20:49:30 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-26 20:49:30 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Meta-Llama-3.1-8B-Instruct/resolve/main/config.json HTTP/1.1" 401 0
+2024-07-26 20:50:54 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-26 20:50:55 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Meta-Llama-3.1-8B-Instruct/resolve/main/config.json HTTP/1.1" 401 0
+2024-07-26 21:22:08 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-26 21:22:08 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Meta-Llama-3.1-8B-Instruct/resolve/main/config.json HTTP/1.1" 403 0
+2024-07-26 21:34:56 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-26 21:34:56 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Meta-Llama-3.1-8B-Instruct/resolve/main/config.json HTTP/1.1" 403 0

@@ -1,0 +1,943 @@
+
+
+
+2024-07-24 17:16:47 - DEBUG - Processing company folder: amzn
+2024-07-24 17:16:47 - INFO - Processing file: extracted_data/amzn/amzn_fx_risk_text.txt
+2024-07-24 17:16:47 - INFO - Chunked text into 9 parts.
+2024-07-24 17:16:47 - DEBUG - Starting GPT-2 analysis.
+2024-07-24 17:16:47 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 17:16:47 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/vocab.json HTTP/1.1" 200 0
+2024-07-24 17:16:47 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/1.1" 200 0
+2024-07-24 17:16:50 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-07-24 17:16:55 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (370) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [370]
+2024-07-24 17:16:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (385) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [385]
+2024-07-24 17:17:03 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (348) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [348]
+2024-07-24 17:17:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (394) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [394]
+2024-07-24 17:17:11 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (390) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [390]
+2024-07-24 17:17:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (378) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [378]
+2024-07-24 17:17:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (358) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [358]
+2024-07-24 17:17:24 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (398) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [398]
+2024-07-24 17:17:26 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (226) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [226]
+2024-07-24 17:17:26 - DEBUG - Starting T5 analysis.
+2024-07-24 17:17:26 - DEBUG - https://huggingface.co:443 "HEAD /t5-small/resolve/main/spiece.model HTTP/1.1" 200 0
+2024-07-24 17:17:26 - DEBUG - Attempting to acquire lock 5865893136 on /Users/vanessasutandar/.cache/huggingface/hub/models--t5-small/blobs/4e28ff6ebdf584f5372d9de68867399142435d9a.lock
+2024-07-24 17:17:26 - DEBUG - Lock 5865893136 acquired on /Users/vanessasutandar/.cache/huggingface/hub/models--t5-small/blobs/4e28ff6ebdf584f5372d9de68867399142435d9a.lock
+2024-07-24 17:17:26 - DEBUG - https://huggingface.co:443 "GET /t5-small/resolve/main/spiece.model HTTP/1.1" 200 791656
+2024-07-24 17:17:27 - DEBUG - Attempting to release lock 5865893136 on /Users/vanessasutandar/.cache/huggingface/hub/models--t5-small/blobs/4e28ff6ebdf584f5372d9de68867399142435d9a.lock
+2024-07-24 17:17:27 - DEBUG - Lock 5865893136 released on /Users/vanessasutandar/.cache/huggingface/hub/models--t5-small/blobs/4e28ff6ebdf584f5372d9de68867399142435d9a.lock
+2024-07-24 17:17:27 - DEBUG - https://huggingface.co:443 "HEAD /t5-small/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2024-07-24 17:17:27 - DEBUG - https://huggingface.co:443 "HEAD /t5-small/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+2024-07-24 17:17:27 - DEBUG - https://huggingface.co:443 "HEAD /t5-small/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-07-24 17:17:27 - DEBUG - Attempting to acquire lock 5850597456 on /Users/vanessasutandar/.cache/huggingface/hub/models--t5-small/blobs/4fd6c49c32ecf41886dba213d40030f063c72b07.lock
+2024-07-24 17:17:27 - DEBUG - Lock 5850597456 acquired on /Users/vanessasutandar/.cache/huggingface/hub/models--t5-small/blobs/4fd6c49c32ecf41886dba213d40030f063c72b07.lock
+2024-07-24 17:17:27 - DEBUG - https://huggingface.co:443 "GET /t5-small/resolve/main/tokenizer_config.json HTTP/1.1" 200 2324
+2024-07-24 17:17:27 - DEBUG - Attempting to release lock 5850597456 on /Users/vanessasutandar/.cache/huggingface/hub/models--t5-small/blobs/4fd6c49c32ecf41886dba213d40030f063c72b07.lock
+2024-07-24 17:17:27 - DEBUG - Lock 5850597456 released on /Users/vanessasutandar/.cache/huggingface/hub/models--t5-small/blobs/4fd6c49c32ecf41886dba213d40030f063c72b07.lock
+2024-07-24 17:17:27 - ERROR - Error in T5 analysis setup: cannot access local variable 'sentencepiece_model_pb2' where it is not associated with a value
+2024-07-24 17:17:27 - DEBUG - Starting LLaMA analysis.
+2024-07-24 17:17:27 - DEBUG - https://huggingface.co:443 "HEAD /facebook/llama/resolve/main/tokenizer_config.json HTTP/1.1" 401 0
+2024-07-24 17:17:27 - ERROR - Error in LLaMA analysis setup: facebook/llama is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2024-07-24 17:17:27 - WARNING - No results for amzn with model GPT-2.
+2024-07-24 17:17:27 - WARNING - No results for amzn with model T5.
+2024-07-24 17:17:27 - WARNING - No results for amzn with model LLaMA.
+2024-07-24 17:17:27 - DEBUG - Processing company folder: aapl
+2024-07-24 17:17:27 - INFO - Processing file: extracted_data/aapl/aapl_fx_risk_text.txt
+2024-07-24 17:17:27 - INFO - Chunked text into 3 parts.
+2024-07-24 17:17:27 - DEBUG - Starting GPT-2 analysis.
+2024-07-24 17:17:27 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/vocab.json HTTP/1.1" 200 0
+2024-07-24 17:17:28 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/1.1" 200 0
+2024-07-24 17:17:31 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-07-24 17:17:35 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (378) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [378]
+2024-07-24 17:17:39 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (369) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [369]
+2024-07-24 17:17:46 - DEBUG - GPT-2 analysis complete for a chunk. Result:  and long term marketable securities, internationa...
+2024-07-24 17:17:46 - DEBUG - Starting T5 analysis.
+2024-07-24 17:17:46 - DEBUG - https://huggingface.co:443 "HEAD /t5-small/resolve/main/spiece.model HTTP/1.1" 200 0
+2024-07-24 17:17:46 - ERROR - Error in T5 analysis setup: cannot access local variable 'sentencepiece_model_pb2' where it is not associated with a value
+2024-07-24 17:17:46 - DEBUG - Starting LLaMA analysis.
+2024-07-24 17:17:46 - DEBUG - https://huggingface.co:443 "HEAD /facebook/llama/resolve/main/tokenizer_config.json HTTP/1.1" 401 0
+2024-07-24 17:17:46 - ERROR - Error in LLaMA analysis setup: facebook/llama is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2024-07-24 17:17:46 - INFO - Created directory: nlp_results/aapl/GPT-2
+2024-07-24 17:17:46 - INFO - Saved GPT-2 results to nlp_results/aapl/GPT-2/aapl_GPT-2_output.txt
+2024-07-24 17:17:46 - WARNING - No results for aapl with model T5.
+2024-07-24 17:17:46 - WARNING - No results for aapl with model LLaMA.
+2024-07-24 17:17:46 - DEBUG - Processing company folder: cmcsa
+2024-07-24 17:17:46 - INFO - Processing file: extracted_data/cmcsa/cmcsa_fx_risk_text.txt
+2024-07-24 17:17:46 - INFO - Chunked text into 2 parts.
+2024-07-24 17:17:46 - DEBUG - Starting GPT-2 analysis.
+2024-07-24 17:17:46 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/vocab.json HTTP/1.1" 200 0
+2024-07-24 17:17:46 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/1.1" 200 0
+2024-07-24 17:17:50 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-07-24 17:17:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (335) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [335]
+2024-07-24 17:17:57 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (255) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [255]
+2024-07-24 17:17:57 - DEBUG - Starting T5 analysis.
+2024-07-24 17:17:57 - DEBUG - https://huggingface.co:443 "HEAD /t5-small/resolve/main/spiece.model HTTP/1.1" 200 0
+2024-07-24 17:17:57 - ERROR - Error in T5 analysis setup: cannot access local variable 'sentencepiece_model_pb2' where it is not associated with a value
+2024-07-24 17:17:57 - DEBUG - Starting LLaMA analysis.
+2024-07-24 17:17:57 - DEBUG - https://huggingface.co:443 "HEAD /facebook/llama/resolve/main/tokenizer_config.json HTTP/1.1" 401 0
+2024-07-24 17:17:57 - ERROR - Error in LLaMA analysis setup: facebook/llama is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2024-07-24 17:17:57 - WARNING - No results for cmcsa with model GPT-2.
+2024-07-24 17:17:57 - WARNING - No results for cmcsa with model T5.
+2024-07-24 17:17:57 - WARNING - No results for cmcsa with model LLaMA.
+2024-07-24 17:17:57 - DEBUG - Processing company folder: pfe
+2024-07-24 17:17:57 - INFO - Processing file: extracted_data/pfe/pfe_fx_risk_text.txt
+2024-07-24 17:17:58 - INFO - Chunked text into 27398 parts.
+2024-07-24 17:17:58 - DEBUG - Starting GPT-2 analysis.
+2024-07-24 17:17:58 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/vocab.json HTTP/1.1" 200 0
+2024-07-24 17:17:59 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/1.1" 200 0
+2024-07-24 17:18:03 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-07-24 17:18:09 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:18:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:18:23 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:18:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:18:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:18:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:18:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:19:02 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:19:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:19:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:19:25 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:19:35 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:19:42 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:19:50 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:19:57 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:20:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:20:17 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:20:25 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:20:32 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:20:40 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:20:47 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:20:55 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:21:03 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:21:11 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:21:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:21:26 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:21:36 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:21:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:21:55 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:22:04 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:22:13 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:22:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:22:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:22:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:22:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:22:57 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:23:08 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:23:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:23:26 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:23:35 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:23:43 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:23:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:24:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:24:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:24:25 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:24:34 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:24:42 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:24:51 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:25:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:25:09 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:25:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:25:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:25:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:25:48 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:25:58 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:26:08 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:26:20 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:26:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:26:40 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:26:50 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:27:01 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:27:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (502) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [502]
+2024-07-24 17:27:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:27:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:27:42 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:27:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:28:01 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:28:11 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:28:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:28:32 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:28:41 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:28:51 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:29:01 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:29:12 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:29:23 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:29:34 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:29:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:29:57 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:30:08 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:30:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:30:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:30:42 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:30:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:31:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:31:17 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:31:32 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:31:43 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:31:53 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:32:03 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:32:13 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:32:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:32:32 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:32:41 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:32:51 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:33:01 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:33:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:33:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:33:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:33:39 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:33:48 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:33:58 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:34:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:34:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:34:25 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:34:34 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:34:43 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:34:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:35:01 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:35:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:35:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:35:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:35:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:35:47 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:35:56 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:36:05 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:36:14 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:36:23 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:36:32 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:36:42 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:36:50 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:37:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:37:09 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:37:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:37:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:37:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:37:47 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:37:56 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:38:05 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:38:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:38:23 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:38:33 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:38:42 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:38:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:39:01 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:39:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:39:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:39:29 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:39:39 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:39:48 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:39:58 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:40:08 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:40:17 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:40:27 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:40:36 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:40:45 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:40:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:41:04 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:41:13 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:41:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:41:32 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:41:41 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:41:49 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:41:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:42:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:42:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:42:25 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:42:34 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:42:42 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:42:51 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:43:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:43:09 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:43:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:43:26 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:43:35 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:43:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:43:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:44:01 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:44:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:44:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:44:27 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:44:36 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:44:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:44:53 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:45:02 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:45:11 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:45:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:45:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:45:36 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:45:45 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:45:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:46:02 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:46:11 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:46:20 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:46:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:46:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:46:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:46:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:47:03 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:47:11 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:47:20 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:47:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:47:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:47:45 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:47:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:48:02 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:48:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:48:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:48:27 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:48:35 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:48:43 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:48:51 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:48:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:49:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:49:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:49:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:49:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:49:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:49:47 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:49:57 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:50:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:50:14 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:50:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:50:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:50:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:50:55 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:51:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:51:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:51:23 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:51:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:51:39 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:51:48 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:51:56 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:52:04 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:52:12 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:52:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:52:27 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:52:34 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:52:43 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:52:50 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:52:58 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:53:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:53:13 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:53:21 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:53:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:53:36 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:53:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:53:51 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:53:58 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:54:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:54:13 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:54:21 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:54:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:54:36 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:54:43 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:54:50 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:54:58 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:55:05 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:55:12 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:55:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:55:26 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:55:34 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:55:41 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:55:49 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:55:56 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:56:04 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:56:11 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:56:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:56:26 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:56:34 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:56:41 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:56:48 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:56:55 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:57:03 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:57:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:57:17 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:57:25 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:57:32 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:57:39 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:57:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:57:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:58:01 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:58:09 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:58:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:58:24 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:58:32 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:58:39 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:58:47 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:58:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:59:02 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:59:09 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:59:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:59:24 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:59:31 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:59:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:59:45 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 17:59:53 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:00:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:00:08 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:00:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:00:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:00:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:00:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:00:45 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:00:53 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:01:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:01:08 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:01:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:01:23 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:01:31 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:01:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:01:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:01:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:02:01 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:02:09 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:02:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:02:24 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:02:31 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:02:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:02:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:02:53 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:03:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:03:08 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:03:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:03:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:03:29 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:03:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:03:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:03:51 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:03:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:04:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:04:14 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:04:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:04:29 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:04:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:04:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:04:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:04:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:05:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:05:14 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:05:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:05:29 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:05:36 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:05:43 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:05:50 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:05:57 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:06:04 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:06:11 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:06:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:06:26 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:06:34 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:06:41 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:06:48 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:06:55 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:07:03 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:07:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:07:17 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:07:24 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:07:32 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:07:39 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:07:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:07:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:08:01 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:08:08 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:08:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:08:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:08:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:08:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:08:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:08:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:08:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:09:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:09:13 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:09:21 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:09:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:09:35 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:09:43 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:09:50 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:09:58 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:10:05 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:10:13 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:10:20 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:10:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:10:35 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:10:42 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:10:50 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:10:58 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:11:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:11:13 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:11:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:11:29 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:11:36 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:11:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:11:51 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:11:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:12:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:12:14 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:12:21 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:12:29 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (495) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [495]
+2024-07-24 18:12:36 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:12:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:12:51 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:12:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:13:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:13:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:13:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:13:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:13:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:13:45 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:13:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:14:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:14:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:14:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:14:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:14:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:14:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:14:45 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:14:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:15:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:15:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:15:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:15:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:15:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:15:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:15:45 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:15:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:15:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:16:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:16:14 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:16:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:16:29 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:16:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:16:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:16:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:16:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:17:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:17:17 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:17:26 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:17:35 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:17:45 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:17:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:18:03 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:18:12 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:18:21 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:18:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:18:39 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:18:47 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:18:56 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:19:04 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:19:13 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:19:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:19:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:19:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:19:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:19:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:20:02 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:20:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:20:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:20:26 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:20:34 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:20:42 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:20:49 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:20:58 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:21:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:21:14 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:21:21 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:21:29 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:21:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:21:45 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:21:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:22:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:22:08 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:22:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:22:23 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:22:31 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:22:39 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:22:47 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:22:55 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:23:03 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:23:11 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:23:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:23:27 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:23:35 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:23:43 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:23:51 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:23:58 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:24:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:24:14 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:24:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:24:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:24:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:24:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:24:53 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:25:02 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:25:11 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:25:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:25:26 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:25:34 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:25:42 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:25:49 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:25:57 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:26:05 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:26:13 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:26:20 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:26:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:26:36 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:26:43 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:26:51 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:26:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:27:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:27:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:27:22 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:27:30 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:27:38 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:27:46 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:27:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:28:02 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:28:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:28:18 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:28:25 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:28:33 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:28:41 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:28:49 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:28:57 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:29:05 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:29:13 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:29:21 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:29:29 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:29:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:29:45 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:29:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:30:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:30:08 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:30:15 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:30:23 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:30:31 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:30:39 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:30:47 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:30:55 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:31:03 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:31:11 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:31:20 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:31:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:31:36 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:31:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:31:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:32:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:32:08 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:32:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:32:25 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:32:34 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:32:48 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:32:59 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:33:07 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:33:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:33:25 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:33:35 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:33:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:33:52 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:34:00 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:34:09 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:34:17 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:34:26 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:34:37 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:34:47 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:34:56 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:35:06 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:35:16 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:35:25 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:35:35 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:35:44 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:35:54 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:36:02 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:36:10 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:36:19 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:36:28 - ERROR - Error in GPT-2 analysis for a chunk: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 18:51:45 - DEBUG - Processing company folder: amzn
+2024-07-24 18:51:45 - INFO - Processing file: extracted_data/amzn/amzn_fx_risk_text.txt
+2024-07-24 18:51:45 - INFO - Chunked text into 9 parts.
+2024-07-24 18:51:45 - DEBUG - Starting GPT-2 analysis.
+2024-07-24 18:51:45 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 18:51:46 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/vocab.json HTTP/1.1" 200 0
+2024-07-24 18:51:46 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/1.1" 200 0
+2024-07-24 18:51:51 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-07-24 18:52:15 - DEBUG - GPT-2 analysis complete for a chunk. Result: We provided guidance on April 30, 2024, in our ear...
+2024-07-24 18:52:37 - DEBUG - GPT-2 analysis complete for a chunk. Result: ur effective tax rates could be affected by numero...
+2024-07-24 18:52:59 - DEBUG - GPT-2 analysis complete for a chunk. Result: efinition The entire disclosure for financial inst...
+2024-07-24 18:53:19 - DEBUG - GPT-2 analysis complete for a chunk. Result: e securities balances, when translated, may be mat...
+2024-07-24 18:53:40 - DEBUG - GPT-2 analysis complete for a chunk. Result: ns of, and certain of our intercompany balances as...
+2024-07-24 18:54:04 - DEBUG - GPT-2 analysis complete for a chunk. Result: 024 the impact from Leap Year added approximately ...
+2024-07-24 18:54:34 - DEBUG - GPT-2 analysis complete for a chunk. Result: hich the ultimate tax determination is uncertain. ...
+2024-07-24 18:54:55 - DEBUG - GPT-2 analysis complete for a chunk. Result: ts, and auction rate securities. Financial instrum...
+2024-07-24 19:35:49 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 19:35:49 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/vocab.json HTTP/1.1" 200 0
+2024-07-24 19:35:50 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/1.1" 200 0
+2024-07-24 19:35:53 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-07-24 19:35:53 - INFO - Created output directory: nlp_results/GPT-2
+2024-07-24 19:35:53 - DEBUG - Processing company folder: amzn
+2024-07-24 19:35:53 - INFO - Processing file: extracted_data/amzn/amzn_fx_risk_text.txt
+2024-07-24 19:35:59 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:36:09 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:36:18 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:36:27 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:36:37 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:36:47 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:36:57 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:36:57 - INFO - Created directory: nlp_results/GPT-2/amzn/GPT-2
+2024-07-24 19:36:57 - INFO - Saved GPT-2 results to nlp_results/GPT-2/amzn/GPT-2/amzn_GPT-2_output.txt
+2024-07-24 19:36:57 - DEBUG - Processing company folder: aapl
+2024-07-24 19:36:57 - INFO - Processing file: extracted_data/aapl/aapl_fx_risk_text.txt
+2024-07-24 19:37:08 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:37:19 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:37:29 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:37:38 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:37:49 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:37:58 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:38:07 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:38:07 - INFO - Created directory: nlp_results/GPT-2/aapl/GPT-2
+2024-07-24 19:38:07 - INFO - Saved GPT-2 results to nlp_results/GPT-2/aapl/GPT-2/aapl_GPT-2_output.txt
+2024-07-24 19:38:07 - DEBUG - Processing company folder: cmcsa
+2024-07-24 19:38:07 - INFO - Processing file: extracted_data/cmcsa/cmcsa_fx_risk_text.txt
+2024-07-24 19:38:16 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:38:25 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:38:33 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:38:43 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:38:53 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:39:01 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:39:13 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 19:39:13 - INFO - Created directory: nlp_results/GPT-2/cmcsa/GPT-2
+2024-07-24 19:39:13 - INFO - Saved GPT-2 results to nlp_results/GPT-2/cmcsa/GPT-2/cmcsa_GPT-2_output.txt
+2024-07-24 19:39:13 - DEBUG - Processing company folder: pfe
+2024-07-24 19:39:13 - INFO - Processing file: extracted_data/pfe/pfe_fx_risk_text.txt
+2024-07-24 19:40:30 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:03:13 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 20:03:13 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/vocab.json HTTP/1.1" 200 0
+2024-07-24 20:03:14 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/1.1" 200 0
+2024-07-24 20:03:17 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-07-24 20:03:17 - DEBUG - Processing company folder: amzn
+2024-07-24 20:03:17 - INFO - Processing file: extracted_data/amzn/amzn_2024_fx_risk_text.txt
+2024-07-24 20:03:17 - INFO - Chunked text into 24 parts.
+2024-07-24 20:03:22 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:03:28 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:03:34 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:03:41 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:03:47 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:03:54 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:04:00 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:04:00 - INFO - Created directory: nlp_results/GPT-2/amzn/GPT-2
+2024-07-24 20:04:00 - INFO - Saved GPT-2 results to nlp_results/GPT-2/amzn/GPT-2/amzn_GPT-2_output.txt
+2024-07-24 20:04:00 - DEBUG - Processing company folder: aapl
+2024-07-24 20:04:00 - INFO - Processing file: extracted_data/aapl/aapl_2024_fx_risk_text.txt
+2024-07-24 20:04:00 - INFO - Chunked text into 8 parts.
+2024-07-24 20:04:07 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:04:13 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:04:19 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:04:26 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:04:33 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:04:41 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:04:49 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:04:49 - INFO - Created directory: nlp_results/GPT-2/aapl/GPT-2
+2024-07-24 20:04:49 - INFO - Saved GPT-2 results to nlp_results/GPT-2/aapl/GPT-2/aapl_GPT-2_output.txt
+2024-07-24 20:04:49 - DEBUG - Processing company folder: cmcsa
+2024-07-24 20:04:49 - INFO - Processing file: extracted_data/cmcsa/cmcsa_2024_fx_risk_text.txt
+2024-07-24 20:04:49 - INFO - Chunked text into 10 parts.
+2024-07-24 20:04:57 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:05:04 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:05:12 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:05:21 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:05:30 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:05:38 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:05:45 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:05:45 - INFO - Created directory: nlp_results/GPT-2/cmcsa/GPT-2
+2024-07-24 20:05:45 - INFO - Saved GPT-2 results to nlp_results/GPT-2/cmcsa/GPT-2/cmcsa_GPT-2_output.txt
+2024-07-24 20:05:45 - DEBUG - Processing company folder: pfe
+2024-07-24 20:05:45 - INFO - Processing file: extracted_data/pfe/pfe_2024_fx_risk_text.txt
+2024-07-24 20:05:47 - INFO - Chunked text into 27425 parts.
+2024-07-24 20:07:00 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:07:31 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 20:07:31 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/vocab.json HTTP/1.1" 200 0
+2024-07-24 20:07:31 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/1.1" 200 0
+2024-07-24 20:07:34 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-07-24 20:07:34 - DEBUG - Processing company folder: amzn
+2024-07-24 20:07:34 - INFO - Processing file: extracted_data/amzn/amzn_2024_fx_risk_text.txt
+2024-07-24 20:07:34 - INFO - Chunked text into 24 parts.
+2024-07-24 20:07:41 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:07:47 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:07:54 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:08:02 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:08:09 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:08:16 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:08:23 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:08:23 - INFO - Created directory: nlp_results/GPT-2/GPT-2/amzn
+2024-07-24 20:08:23 - INFO - Saved GPT-2 results to nlp_results/GPT-2/GPT-2/amzn/amzn_GPT-2_output.txt
+2024-07-24 20:08:23 - DEBUG - Processing company folder: aapl
+2024-07-24 20:08:23 - INFO - Processing file: extracted_data/aapl/aapl_2024_fx_risk_text.txt
+2024-07-24 20:08:23 - INFO - Chunked text into 8 parts.
+2024-07-24 20:08:30 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:08:37 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:08:44 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:08:52 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:09:00 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:09:07 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:09:14 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:09:14 - INFO - Created directory: nlp_results/GPT-2/GPT-2/aapl
+2024-07-24 20:09:14 - INFO - Saved GPT-2 results to nlp_results/GPT-2/GPT-2/aapl/aapl_GPT-2_output.txt
+2024-07-24 20:09:14 - DEBUG - Processing company folder: cmcsa
+2024-07-24 20:09:14 - INFO - Processing file: extracted_data/cmcsa/cmcsa_2024_fx_risk_text.txt
+2024-07-24 20:09:14 - INFO - Chunked text into 10 parts.
+2024-07-24 20:09:22 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:09:29 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:09:36 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:09:43 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:09:51 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:09:58 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:10:06 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:10:06 - INFO - Created directory: nlp_results/GPT-2/GPT-2/cmcsa
+2024-07-24 20:10:06 - INFO - Saved GPT-2 results to nlp_results/GPT-2/GPT-2/cmcsa/cmcsa_GPT-2_output.txt
+2024-07-24 20:10:06 - DEBUG - Processing company folder: pfe
+2024-07-24 20:10:06 - INFO - Processing file: extracted_data/pfe/pfe_2024_fx_risk_text.txt
+2024-07-24 20:10:08 - INFO - Chunked text into 27425 parts.
+2024-07-24 20:11:23 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:12:33 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-24 20:12:33 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/vocab.json HTTP/1.1" 200 0
+2024-07-24 20:12:33 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/1.1" 200 0
+2024-07-24 20:12:36 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/1.1" 200 0
+2024-07-24 20:12:36 - DEBUG - Processing company folder: amzn
+2024-07-24 20:12:36 - INFO - Processing file: extracted_data/amzn/amzn_2024_fx_risk_text.txt
+2024-07-24 20:12:36 - INFO - Chunked text into 24 parts.
+2024-07-24 20:12:41 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (382) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [382]
+2024-07-24 20:12:45 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (384) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [384]
+2024-07-24 20:12:50 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (382) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [382]
+2024-07-24 20:12:55 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (382) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [382]
+2024-07-24 20:13:00 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (382) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [382]
+2024-07-24 20:13:05 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (383) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [383]
+2024-07-24 20:13:10 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (383) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [383]
+2024-07-24 20:13:15 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (368) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [368]
+2024-07-24 20:13:19 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (370) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [370]
+2024-07-24 20:13:24 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (368) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [368]
+2024-07-24 20:13:29 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (368) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [368]
+2024-07-24 20:13:34 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (368) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [368]
+2024-07-24 20:13:39 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (369) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [369]
+2024-07-24 20:13:44 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (369) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [369]
+2024-07-24 20:13:44 - ERROR - Error processing file extracted_data/amzn/amzn_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 20:13:44 - DEBUG - Processing company folder: aapl
+2024-07-24 20:13:44 - INFO - Processing file: extracted_data/aapl/aapl_2024_fx_risk_text.txt
+2024-07-24 20:13:44 - INFO - Chunked text into 8 parts.
+2024-07-24 20:13:49 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (373) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [373]
+2024-07-24 20:13:54 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (375) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [375]
+2024-07-24 20:14:00 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (373) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [373]
+2024-07-24 20:14:06 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (373) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [373]
+2024-07-24 20:14:12 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (373) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [373]
+2024-07-24 20:14:17 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (374) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [374]
+2024-07-24 20:14:22 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (374) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [374]
+2024-07-24 20:14:28 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (395) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [395]
+2024-07-24 20:14:35 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (397) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [397]
+2024-07-24 20:14:41 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (395) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [395]
+2024-07-24 20:14:48 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (395) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [395]
+2024-07-24 20:14:55 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (395) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [395]
+2024-07-24 20:15:02 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (396) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [396]
+2024-07-24 20:15:09 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (396) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [396]
+2024-07-24 20:15:09 - ERROR - Error processing file extracted_data/aapl/aapl_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 20:15:09 - DEBUG - Processing company folder: cmcsa
+2024-07-24 20:15:09 - INFO - Processing file: extracted_data/cmcsa/cmcsa_2024_fx_risk_text.txt
+2024-07-24 20:15:09 - INFO - Chunked text into 10 parts.
+2024-07-24 20:15:18 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (478) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [478]
+2024-07-24 20:15:27 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (480) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [480]
+2024-07-24 20:15:35 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (478) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [478]
+2024-07-24 20:15:42 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (478) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [478]
+2024-07-24 20:15:50 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (478) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [478]
+2024-07-24 20:15:59 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (479) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [479]
+2024-07-24 20:16:07 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (479) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [479]
+2024-07-24 20:16:15 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (469) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [469]
+2024-07-24 20:16:23 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (471) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [471]
+2024-07-24 20:16:31 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (469) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [469]
+2024-07-24 20:16:39 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (469) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [469]
+2024-07-24 20:16:47 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (469) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [469]
+2024-07-24 20:16:57 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (470) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [470]
+2024-07-24 20:17:05 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (470) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [470]
+2024-07-24 20:17:05 - ERROR - Error processing file extracted_data/cmcsa/cmcsa_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 20:17:05 - DEBUG - Processing company folder: pfe
+2024-07-24 20:17:05 - INFO - Processing file: extracted_data/pfe/pfe_2024_fx_risk_text.txt
+2024-07-24 20:17:07 - INFO - Chunked text into 27425 parts.
+2024-07-24 20:17:20 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:17:33 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:17:44 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:17:55 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:18:07 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:18:20 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:18:32 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:18:44 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:18:58 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:19:13 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:19:27 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:19:38 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:19:49 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:20:01 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:20:01 - ERROR - Error processing file extracted_data/pfe/pfe_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 20:20:01 - DEBUG - Processing company folder: pep
+2024-07-24 20:20:01 - INFO - Processing file: extracted_data/pep/pep_2024_fx_risk_text.txt
+2024-07-24 20:20:01 - INFO - Chunked text into 28 parts.
+2024-07-24 20:20:11 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (444) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [444]
+2024-07-24 20:20:20 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (446) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [446]
+2024-07-24 20:20:29 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (444) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [444]
+2024-07-24 20:20:38 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (444) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [444]
+2024-07-24 20:20:47 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (444) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [444]
+2024-07-24 20:20:58 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (445) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [445]
+2024-07-24 20:21:08 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (445) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [445]
+2024-07-24 20:21:21 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (416) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [416]
+2024-07-24 20:21:35 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (418) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [418]
+2024-07-24 20:21:50 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (416) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [416]
+2024-07-24 20:22:04 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (416) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [416]
+2024-07-24 20:22:17 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (416) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [416]
+2024-07-24 20:22:30 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (417) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [417]
+2024-07-24 20:22:40 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (417) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [417]
+2024-07-24 20:22:40 - ERROR - Error processing file extracted_data/pep/pep_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 20:22:40 - DEBUG - Processing company folder: goog
+2024-07-24 20:22:40 - INFO - Processing file: extracted_data/goog/goog_2024_fx_risk_text.txt
+2024-07-24 20:22:40 - INFO - Chunked text into 24 parts.
+2024-07-24 20:22:50 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (409) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [409]
+2024-07-24 20:22:58 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (411) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [411]
+2024-07-24 20:23:07 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (409) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [409]
+2024-07-24 20:23:16 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (409) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [409]
+2024-07-24 20:23:27 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (409) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [409]
+2024-07-24 20:23:38 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (410) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [410]
+2024-07-24 20:23:47 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (410) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [410]
+2024-07-24 20:24:01 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (450) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [450]
+2024-07-24 20:24:14 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (452) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [452]
+2024-07-24 20:24:25 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (450) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [450]
+2024-07-24 20:24:37 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (450) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [450]
+2024-07-24 20:24:51 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (450) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [450]
+2024-07-24 20:25:05 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (451) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [451]
+2024-07-24 20:25:17 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (451) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [451]
+2024-07-24 20:25:17 - ERROR - Error processing file extracted_data/goog/goog_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 20:25:17 - DEBUG - Processing company folder: ms
+2024-07-24 20:25:17 - INFO - Processing file: extracted_data/ms/ms_2024_fx_risk_text.txt
+2024-07-24 20:25:17 - INFO - Chunked text into 320 parts.
+2024-07-24 20:25:29 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:25:39 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:25:50 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:26:00 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:26:10 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:26:21 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:26:32 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (513) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [513]
+2024-07-24 20:26:39 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (427) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [427]
+2024-07-24 20:26:48 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (429) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [429]
+2024-07-24 20:26:56 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (427) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [427]
+2024-07-24 20:27:04 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (427) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [427]
+2024-07-24 20:27:11 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (427) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [427]
+2024-07-24 20:27:20 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (428) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [428]
+2024-07-24 20:27:28 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (428) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [428]
+2024-07-24 20:27:28 - ERROR - Error processing file extracted_data/ms/ms_2024_fx_risk_text.txt: can only concatenate str (not "NoneType") to str
+2024-07-24 20:27:28 - DEBUG - Processing company folder: wmt
+2024-07-24 20:27:28 - INFO - Processing file: extracted_data/wmt/wmt_2024_fx_risk_text.txt
+2024-07-24 20:27:28 - INFO - Chunked text into 18 parts.
+2024-07-24 20:27:36 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (372) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [372]
+2024-07-24 20:27:43 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (374) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [374]
+2024-07-24 20:27:51 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (372) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [372]
+2024-07-24 20:27:58 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (372) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [372]
+2024-07-24 20:28:05 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (372) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [372]
+2024-07-24 20:28:13 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (373) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [373]
+2024-07-24 20:28:20 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (373) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [373]
+2024-07-24 20:28:29 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (466) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [466]
+2024-07-24 20:28:40 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (468) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [468]
+2024-07-24 20:28:51 - ERROR - Error in analysis: The expanded size of the tensor (150) must match the existing size (466) at non-singleton dimension 0.  Target sizes: [150].  Tensor sizes: [466]
